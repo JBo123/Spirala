@@ -11,25 +11,28 @@ struct DrwaingView: View {
     
     @Binding var valueA: String
     @Binding var valueN: String
+ 
     
     var body: some View {
         Text(valueA + valueN)
-        draw(valueA: 2, valueN: 1)
+      
+       
+        draw(valueA: valueA, valueN: 1)
             .stroke(.blue, lineWidth: 1)
         
         
     }
 }
 
-func draw(valueA: Int, valueN: Int) -> Path {
+func draw(valueA: String, valueN: Int) -> Path {
     
     var path = Path()
-    path.move(to: CGPoint(x: 100, y: 100))
+    path.move(to: CGPoint(x: Int(valueA) ?? 5000, y: 100))
     path.addLine(to: CGPoint(x: 100, y: 300))
     path.addLine(to: CGPoint(x: 300, y: 300))
     path.addLine(to: CGPoint(x: 200, y: 100))
     path.closeSubpath()
-            return path
+        return path
 }
     
 
