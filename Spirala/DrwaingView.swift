@@ -8,13 +8,35 @@
 import SwiftUI
 
 struct DrwaingView: View {
+    
+    @Binding var valueA: String
+    @Binding var valueN: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(valueA + valueN)
+        draw(valueA: 2, valueN: 1)
+            .stroke(.blue, lineWidth: 1)
+        
+        
     }
 }
 
+func draw(valueA: Int, valueN: Int) -> Path {
+    
+    var path = Path()
+    path.move(to: CGPoint(x: 100, y: 100))
+    path.addLine(to: CGPoint(x: 100, y: 300))
+    path.addLine(to: CGPoint(x: 300, y: 300))
+    path.addLine(to: CGPoint(x: 200, y: 100))
+    path.closeSubpath()
+            return path
+}
+    
+
 struct DrwaingView_Previews: PreviewProvider {
     static var previews: some View {
-        DrwaingView()
+
+        DrwaingView(valueA: .constant("0") , valueN: .constant("5") )
+        
     }
 }

@@ -11,7 +11,8 @@ import SwiftUI
 struct SpiralaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DrwaingView(valueA: .constant("1"), valueN: .constant("1"))
+            //ContentView(valueA: "", valueN: "")
         }
     }
 }
