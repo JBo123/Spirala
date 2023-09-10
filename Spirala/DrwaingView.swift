@@ -64,9 +64,11 @@ func draw(valueA: String, valueN: String, stateX: Bool, stateY: Bool) -> Path {
            return path
        }
     path.move(to: CGPoint(x: startValue, y: startValue))
+    
+    
     path.addLine(to: CGPoint(x: startValue + a, y: startValue))
-    path.addLine(to: CGPoint(x: startValue + a, y:  startValue + a))
-    path.addLine(to: CGPoint(x: 40, y: 100 + startValue))
+    path.addLine(to: CGPoint(x: startValue + a, y: startValue + a))
+    path.addLine(to: CGPoint(x: startValue + n, y: startValue + a))
     path.addLine(to: CGPoint(x: 40, y: 40))
 
     //path.closeSubpath()
