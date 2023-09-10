@@ -16,8 +16,8 @@ struct ContentView: View {
             
             
             VStack {
-                HStack{
-                    TextField("délka hrany...", text: $valueA)
+                VStack{
+                    TextField("délka hrany v px 1:10 ratio...", text: $valueA)
                         .keyboardType(.numberPad)
                         .onChange(of: valueA) { value in
                                 guard let number = Int(value) else {
@@ -26,7 +26,7 @@ struct ContentView: View {
                                 }
                                 self.valueA = String(number)
                             }
-                    TextField("délka mezery...", text: $valueN)
+                    TextField("délka mezery v px 1:10 ratio...", text: $valueN)
                         .keyboardType(.numberPad)
                         .onChange(of: valueA) { value in
                                 guard let number = Int(value) else {
