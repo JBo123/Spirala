@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F04F87E2-3A40-4351-A0A5-A02B2974AC48"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "311CBA2F-2B63-45F9-9BEB-80170CA5EF7B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Spirala/DrwaingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "draw(valueA:valueN:stateX:stateY:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "311CBA2F-2B63-45F9-9BEB-80170CA5EF7B - b0cb9b40464d4ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Spirala.draw(valueA: Swift.String, valueN: Swift.String, stateX: Swift.Bool, stateY: Swift.Bool) -&gt; SwiftUI.Path"
+                  moduleName = "Spirala"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jakubklucky/Projects/SWIFT/Spirala/Spirala/DrwaingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "311CBA2F-2B63-45F9-9BEB-80170CA5EF7B - b0cb9b40464d4a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Spirala.draw(valueA: Swift.String, valueN: Swift.String, stateX: Swift.Bool, stateY: Swift.Bool) -&gt; SwiftUI.Path"
+                  moduleName = "Spirala"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jakubklucky/Projects/SWIFT/Spirala/Spirala/DrwaingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1636">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

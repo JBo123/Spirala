@@ -16,24 +16,24 @@ struct ContentView: View {
             
             
             VStack {
-                VStack{
-                    TextField("délka hrany v px 1:10 ratio...", text: $valueA)
-                      //  .keyboardType(.numberPad)
+                HStack{
+                    TextField("hrana v px 1:10 ratio...", text: $valueA)
+                        .keyboardType(.numberPad)
                         .onChange(of: valueA) { value in
-                                guard let number = Int(value) else {
+                                guard let number = Int(value), number < 38 else {
                                     self.valueA = ""
                                     return
                                 }
                                 self.valueA = String(number)
                             }
-                    TextField("délka mezery v px 1:10 ratio...", text: $valueN)
-                       // .keyboardType(.numberPad)
-                        .onChange(of: valueA) { value in
-                                guard let number = Int(value) else {
-                                    self.valueA = ""
+                    TextField("mezery v px 1:10 ratio...", text: $valueN)
+                        .keyboardType(.numberPad)
+                        .onChange(of: valueN) { value in
+                                guard let number = Int(value), number < 19 else {
+                                    self.valueN = ""
                                     return
                                 }
-                                self.valueA = String(number)
+                                self.valueN = String(number)
                             }
                     
                 }
