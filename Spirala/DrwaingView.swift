@@ -31,8 +31,8 @@ func draw(valueA: String, valueN: String, stateX: Bool, stateY: Bool) -> Path {
     var ANSwitch = true
     var x = 10
     var y = 10
-    
     var path = Path()
+    
     guard var a = Int(valueA)  else {
         return path
     }
@@ -40,13 +40,14 @@ func draw(valueA: String, valueN: String, stateX: Bool, stateY: Bool) -> Path {
     guard var n = Int(valueN) else {
         return path
     }
+    
     guard var baseN = Int(valueN) else {
         return path
     }
+    
     a = a * 10
     n = n * 10
     baseN = baseN * 10
-
     
     path.move(to: CGPoint(x: x, y: y))
     
@@ -54,7 +55,6 @@ func draw(valueA: String, valueN: String, stateX: Bool, stateY: Bool) -> Path {
         if a < n {
             break
         }
-        
         if ANSwitch == true {
             
             if sideSwitch == true {
@@ -62,7 +62,6 @@ func draw(valueA: String, valueN: String, stateX: Bool, stateY: Bool) -> Path {
             } else {
                 y = a + 10
             }
-            
             path.addLine(to: CGPoint(x: x, y: y))
             
         } else {
@@ -92,8 +91,6 @@ func draw(valueA: String, valueN: String, stateX: Bool, stateY: Bool) -> Path {
 
 struct DrwaingView_Previews: PreviewProvider {
     static var previews: some View {
-        
         DrwaingView(valueA: .constant("50") , valueN: .constant("50"))
-        
     }
 }

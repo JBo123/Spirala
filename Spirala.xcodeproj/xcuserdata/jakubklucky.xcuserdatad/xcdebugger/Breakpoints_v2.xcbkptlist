@@ -52,5 +52,69 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2025C94-FFE2-4669-86B4-DC38DBC334EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Spirala/DrawingNoRecursiveView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "draw2(valueA:valueN:stateX:stateY:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "D2025C94-FFE2-4669-86B4-DC38DBC334EB - 95d939c7d9079396"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Spirala.draw2(valueA: Swift.String, valueN: Swift.String, stateX: Swift.Bool, stateY: Swift.Bool) -&gt; SwiftUI.Path"
+                  moduleName = "Spirala"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jakubklucky/Projects/SWIFT/Spirala/Spirala/DrawingNoRecursiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "D2025C94-FFE2-4669-86B4-DC38DBC334EB - 95d939c7d90793b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Spirala.draw2(valueA: Swift.String, valueN: Swift.String, stateX: Swift.Bool, stateY: Swift.Bool) -&gt; SwiftUI.Path"
+                  moduleName = "Spirala"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jakubklucky/Projects/SWIFT/Spirala/Spirala/DrawingNoRecursiveView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABB224D5-4057-49F1-B907-8E18E2EBFB73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Spirala/DrawingNoRecursiveView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "draw2(valueA:valueN:stateX:stateY:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
