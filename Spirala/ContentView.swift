@@ -42,10 +42,10 @@ struct ContentView: View {
                             self.valueN = String(number)
                         }
                 }
-                    NavigationLink("Draw", destination: DrwaingView(valueA: $valueA, valueN: $valueN))
+                    NavigationLink("DrawNonRecursive", destination: DrwaingView(valueA: $valueA, valueN: $valueN))
                         .padding()
                 
-                    NavigationLink("DrawNonRecursive", destination: DrawingNoRecursiveView(valueA: $valueA, valueN: $valueN))
+                    NavigationLink("DrawRecursive", destination: DrawingNoRecursiveView(valueA: $valueA, valueN: $valueN))
                         .padding()
                 
                 Spacer()
